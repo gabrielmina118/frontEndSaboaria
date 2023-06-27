@@ -50,17 +50,18 @@ const Product = () => {
     const getProductDetail = async () => {
       try {
         const result = await axios.get(`${Url}/product/${id}`);
+        console.log(result.data)
         setProductDetail({
-          _id: result.data.newProductId._id,
-          nome: result.data.newProductId.nome,
-          foto: result.data.newProductId.foto,
-          preco: result.data.newProductId.preco,
-          descricao: result.data.newProductId.descricao,
-          quantidade: result.data.newProductId.quantidade,
-          tamanho: result.data.newProductId.tamanho,
+          _id: result.data.product._id,
+          nome: result.data.product.nome,
+          foto: result.data.product.foto,
+          preco: result.data.product.preco,
+          descricao: result.data.product.descricao,
+          quantidade: result.data.product.quantidade,
+          tamanho: result.data.product.tamanho,
         });
         setProductRelativeDetail(result.data.productRelative);
-        setIngredients(result.data.newProductId.ingredients);
+        setIngredients(result.data.productIngredients);
       } catch (error) {
         console.log(error);
       }

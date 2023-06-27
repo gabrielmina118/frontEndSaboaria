@@ -59,7 +59,7 @@ export default function CardProduto({
             </IconRow>
           </Tooltip>
           <Tooltip hasArrow label="Página do produto" placement="top">
-            <IconRow onClick={() => goTo(navigate, `/produto/${id}`)}>
+            <IconRow onClick={() => goTo(navigate, `/product/${id}`)}>
               <IconContext.Provider
                 value={{ className: "global-class-name", size: "1.5em" }}
               >
