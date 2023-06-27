@@ -2,7 +2,7 @@
 
 Este projeto serve como front-end de um site de vendas na área da beleza e cosméticos. 
 
-Visitar um modelo em construção 🛠️ -> https://front-end-saboaria-g26yv4s4w-gabrielmina118.vercel.app/
+Visitar um modelo em construção 🛠️ ->[aqui](https://front-end-saboaria-awp10to1x-gabrielmina118.vercel.app/)
 
 ## :rocket: Começando
 
